@@ -35,7 +35,7 @@ def update_window(new_numbers):
         for number in new_numbers:
             if number not in window:
                 if len(window) >= WINDOW_SIZE:
-                    window.pop(0)                 # Remove the oldest number
+                    window.pop(0)                
                 window.append(number)
         return windowPrevState, window
 
